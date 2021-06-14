@@ -1,0 +1,33 @@
+{
+  "name": "shippify-logger",
+  "version": "1.0.0",
+  "description": "This is a library for exclusive Shippify Logger purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shippify/shippify-logger.git"
+  },
+  "keywords": [
+    "Shippify",
+    "logger",
+    "log"
+  ],
+  "author": "Leonardo Larrea <leonardo.larrea1@gmail.com>",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/shippify/shippify-logger/issues"
+  },
+  "homepage": "https://github.com/shippify/shippify-logger#readme",
+  "dependencies": {
+    "aws-sdk": "^2.927.0",
+    "serialize-error": "^8.1.0",
+    "winston": "^3.3.3",
+    "winston-cloudwatch": "^2.5.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
